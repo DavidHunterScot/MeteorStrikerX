@@ -1,4 +1,4 @@
-package scot.davidhunter.spaceshipgame.objects;
+package scot.davidhunter.meteorstrikerx.objects;
 
 import java.awt.Graphics;
 import java.awt.Image;

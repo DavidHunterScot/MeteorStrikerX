@@ -1,4 +1,4 @@
-package scot.davidhunter.spaceshipgame.image;
+package scot.davidhunter.meteorstrikerx.image;
 
 public enum ImageType
 {

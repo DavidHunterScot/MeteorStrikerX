@@ -6,7 +6,7 @@ Here are some ideas for the future development of the game.
 
 ## Proposed Ideas...
 
-### Game Name Change: Meteor Striker X
+### Game Name Change: Meteor Striker X [DONE]
 
 The name *Space Ship Game* is quite generic and bland. It would be good if it got a better name.
 

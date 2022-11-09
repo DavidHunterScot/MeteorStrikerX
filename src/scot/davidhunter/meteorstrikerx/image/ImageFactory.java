@@ -1,8 +1,8 @@
-package scot.davidhunter.spaceshipgame.image;
+package scot.davidhunter.meteorstrikerx.image;
 
 import javax.swing.ImageIcon;
 
-import scot.davidhunter.spaceshipgame.constants.Constants;
+import scot.davidhunter.meteorstrikerx.constants.Constants;
 
 public class ImageFactory
 {

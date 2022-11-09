@@ -1,10 +1,10 @@
-package scot.davidhunter.spaceshipgame.ui;
+package scot.davidhunter.meteorstrikerx.ui;
 
 import javax.swing.JFrame;
 
-import scot.davidhunter.spaceshipgame.constants.Constants;
-import scot.davidhunter.spaceshipgame.image.ImageFactory;
-import scot.davidhunter.spaceshipgame.image.ImageType;
+import scot.davidhunter.meteorstrikerx.constants.Constants;
+import scot.davidhunter.meteorstrikerx.image.ImageFactory;
+import scot.davidhunter.meteorstrikerx.image.ImageType;
 
 public class GameMainFrame extends JFrame
 {

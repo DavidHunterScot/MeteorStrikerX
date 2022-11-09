@@ -1,8 +1,8 @@
-package scot.davidhunter.spaceshipgame.random;
+package scot.davidhunter.meteorstrikerx.random;
 
 import java.util.Random;
 
-import scot.davidhunter.spaceshipgame.constants.Constants;
+import scot.davidhunter.meteorstrikerx.constants.Constants;
 
 public class RandomGenerator
 {

@@ -1,4 +1,4 @@
-package scot.davidhunter.spaceshipgame.constants;
+package scot.davidhunter.meteorstrikerx.constants;
 
 public class Constants
 {
@@ -24,7 +24,7 @@ public class Constants
 	public static final int METEOR_WIDTH = 48;
 	public static final int METEOR_HEIGHT = 82;
 	
-	public static final String GAME_TITLE = "Space Ship Game";
+	public static final String GAME_TITLE = "Meteor Striker X";
 	
 	// constants for the images
 	public static final String IMAGES_BASE_URL = "resources/images/";

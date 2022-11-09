@@ -1,9 +1,9 @@
-package scot.davidhunter.spaceshipgame.callbacks;
+package scot.davidhunter.meteorstrikerx.callbacks;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-import scot.davidhunter.spaceshipgame.ui.GamePanel;
+import scot.davidhunter.meteorstrikerx.ui.GamePanel;
 
 public class GameEventListener extends KeyAdapter
 {

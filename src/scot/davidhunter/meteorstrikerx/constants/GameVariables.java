@@ -1,4 +1,4 @@
-package scot.davidhunter.spaceshipgame.constants;
+package scot.davidhunter.meteorstrikerx.constants;
 
 public class GameVariables
 {

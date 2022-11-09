@@ -1,4 +1,4 @@
-package scot.davidhunter.spaceshipgame.ui;
+package scot.davidhunter.meteorstrikerx.ui;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -13,14 +13,14 @@ import java.util.List;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-import scot.davidhunter.spaceshipgame.callbacks.GameEventListener;
-import scot.davidhunter.spaceshipgame.constants.Constants;
-import scot.davidhunter.spaceshipgame.constants.GameVariables;
-import scot.davidhunter.spaceshipgame.objects.Background;
-import scot.davidhunter.spaceshipgame.objects.Laser;
-import scot.davidhunter.spaceshipgame.objects.Meteor;
-import scot.davidhunter.spaceshipgame.objects.SpaceShip;
-import scot.davidhunter.spaceshipgame.random.RandomGenerator;
+import scot.davidhunter.meteorstrikerx.callbacks.GameEventListener;
+import scot.davidhunter.meteorstrikerx.constants.Constants;
+import scot.davidhunter.meteorstrikerx.constants.GameVariables;
+import scot.davidhunter.meteorstrikerx.objects.Background;
+import scot.davidhunter.meteorstrikerx.objects.Laser;
+import scot.davidhunter.meteorstrikerx.objects.Meteor;
+import scot.davidhunter.meteorstrikerx.objects.SpaceShip;
+import scot.davidhunter.meteorstrikerx.random.RandomGenerator;
 
 public class GamePanel extends JPanel
 {

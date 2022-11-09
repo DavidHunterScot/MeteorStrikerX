@@ -1,4 +1,4 @@
-package scot.davidhunter.spaceshipgame.objects;
+package scot.davidhunter.meteorstrikerx.objects;
 
 import java.awt.Graphics;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import javax.swing.ImageIcon;
 
-import scot.davidhunter.spaceshipgame.constants.Constants;
+import scot.davidhunter.meteorstrikerx.constants.Constants;
 
 public class Meteor extends Sprite
 {

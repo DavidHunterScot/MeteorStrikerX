@@ -1,12 +1,12 @@
-package scot.davidhunter.spaceshipgame.objects;
+package scot.davidhunter.meteorstrikerx.objects;
 
 import java.awt.Graphics;
 
 import javax.swing.ImageIcon;
 
-import scot.davidhunter.spaceshipgame.constants.Constants;
-import scot.davidhunter.spaceshipgame.image.ImageFactory;
-import scot.davidhunter.spaceshipgame.image.ImageType;
+import scot.davidhunter.meteorstrikerx.constants.Constants;
+import scot.davidhunter.meteorstrikerx.image.ImageFactory;
+import scot.davidhunter.meteorstrikerx.image.ImageType;
 
 public class Laser extends Sprite
 {

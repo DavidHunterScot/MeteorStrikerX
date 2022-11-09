@@ -1,4 +1,4 @@
-# Space Ship Game
+# Meteor Striker X
 
 A simple 2D space ship vertical scrolling game made in Java.
 

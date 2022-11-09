@@ -1,7 +1,7 @@
-package scot.davidhunter.spaceshipgame.ui;
+package scot.davidhunter.meteorstrikerx.ui;
 
-import scot.davidhunter.spaceshipgame.constants.Constants;
-import scot.davidhunter.spaceshipgame.objects.Sprite;
+import scot.davidhunter.meteorstrikerx.constants.Constants;
+import scot.davidhunter.meteorstrikerx.objects.Sprite;
 
 public class CollisionDetector
 {

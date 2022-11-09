@@ -1,4 +1,4 @@
-package scot.davidhunter.spaceshipgame.ui;
+package scot.davidhunter.meteorstrikerx.ui;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

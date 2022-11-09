@@ -1,11 +1,11 @@
-package scot.davidhunter.spaceshipgame.app;
+package scot.davidhunter.meteorstrikerx.app;
 
 import java.awt.EventQueue;
 
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-import scot.davidhunter.spaceshipgame.ui.GameMainFrame;
+import scot.davidhunter.meteorstrikerx.ui.GameMainFrame;
 
 public class App
 {

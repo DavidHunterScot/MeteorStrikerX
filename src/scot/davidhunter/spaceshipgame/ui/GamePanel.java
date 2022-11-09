@@ -121,8 +121,9 @@ public class GamePanel extends JPanel
 		g.drawString( Constants.GAME_OVER, Constants.GAME_WIDTH / 2 - fontMetrics.stringWidth( Constants.GAME_OVER ) / 2, Constants.GAME_HEIGHT / 2 - 100 );
 		
 		// Draw the score
+		String score = Constants.GAME_OVER_SCORE.replace( Constants.GAME_OVER_SCORE_INDICATOR, GameVariables.SCORE + "" );
 		g.setColor( Color.YELLOW );
-		g.drawString( "Score: " + GameVariables.SCORE, Constants.GAME_WIDTH / 2 - fontMetrics.stringWidth( "Score: " + GameVariables.SCORE ) / 2, Constants.GAME_HEIGHT - 300 );
+		g.drawString( score, Constants.GAME_WIDTH / 2 - fontMetrics.stringWidth( score ) / 2, Constants.GAME_HEIGHT - 300 );
 	}
 	
 	private void handleMeteors( Graphics g )

@@ -22,4 +22,4 @@ You have this one chance to save us all the best you can. Good luck!
 
 ---
 
-Credit goes to Skill Share for teaching me how to make this game.
+A special thanks goes to Skill Share for teaching me how to make the base of this game. Check out my future [Development Ideas](/DevelopmentIdeas.md).

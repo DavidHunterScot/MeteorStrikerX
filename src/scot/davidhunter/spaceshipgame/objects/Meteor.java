@@ -23,16 +23,8 @@ public class Meteor extends Sprite
 	private void initialize()
 	{
 		frames = new ArrayList<>();
-		frames.add( new ImageIcon( "resources/images/meteor_01.png" ) );
-		frames.add( new ImageIcon( "resources/images/meteor_02.png" ) );
-		frames.add( new ImageIcon( "resources/images/meteor_03.png" ) );
-		frames.add( new ImageIcon( "resources/images/meteor_04.png" ) );
-		frames.add( new ImageIcon( "resources/images/meteor_05.png" ) );
-		frames.add( new ImageIcon( "resources/images/meteor_06.png" ) );
-		frames.add( new ImageIcon( "resources/images/meteor_07.png" ) );
-		frames.add( new ImageIcon( "resources/images/meteor_08.png" ) );
-		frames.add( new ImageIcon( "resources/images/meteor_09.png" ) );
-		frames.add( new ImageIcon( "resources/images/meteor_10.png" ) );
+		for ( int f = 0; f < Constants.METEOR_ANIMATION_FRAMES; f++ )
+			frames.add( new ImageIcon( Constants.METEOR_ANIMATION_URL_TEMPLATE.replace( Constants.METEOR_ANIMATION_FRAME_INDICATOR + "", ( f + 1 ) + "" ) ) );
 		setImage( frames.get( 0 ).getImage() );
 	}
 	

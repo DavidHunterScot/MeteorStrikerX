@@ -19,10 +19,8 @@ public class SpaceShip extends Sprite
 	public SpaceShip()
 	{
 		this.frames = new ArrayList<>();
-		frames.add( new ImageIcon( "resources/images/spaceship_0.png" ) );
-		frames.add( new ImageIcon( "resources/images/spaceship_1.png" ) );
-		frames.add( new ImageIcon( "resources/images/spaceship_2.png" ) );
-		frames.add( new ImageIcon( "resources/images/spaceship_3.png" ) );
+		for ( int f = 0; f < Constants.SPACESHIP_ANIMATION_FRAMES; f++ )
+			frames.add( new ImageIcon( Constants.SPACESHIP_ANIMATION_URL_TEMPLATE.replace( Constants.SPACESHIP_ANIMATION_FRAME_INDICATOR + "", f + "" ) ) );
 		
 		// set the first frame as the initial image.
 		setImage( frames.get( 0 ).getImage() );
